@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        i{
+            color:black;
+        }
+        .image{
+            background-color:  rgb(89, 94, 107);
+            padding-top: 20px;
+            height: 140px;
+        }
+        div img{
+            border-radius: 50%;
+            border: 4px dotted rgb(179, 165, 41);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .name{
+            position: absolute;
+            background-color: rgb(179, 165, 41);
+            border-radius: 5px;
+            color: black;
+            left: 33%;
+            top: 24%;
+            padding: 2px 20px;
+            font-size: 30px;
+        }
+        .div1{
+            background-color:rgb(235, 227, 227);
+            height: 20px;
+        }
+        .div2{
+            background-color: rgb(89, 94, 107);
+            height: 25px;
+            /* margin-top: 15px; */
+            
+        }
+        .div3{
+            border-bottom: 2px dotted black;
+            text-align: center;
+            font-size: 20px;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); ;
+        }
+        .grid-item{
+            font-size: 30px;
+            padding-left: 50px;
+            padding-right: 30px;
+            position: relative;
+        }
+        .grid-item2{
+            font-size: 20px;
+            padding-left: 50px;
+            padding-right: 30px;
+            position: relative;
+        }
+        .item2{
+            border-left: 2px solid black;
+        }
+        .grid-container i{
+            border-radius: 50%;
+            border: 2px dashed rgb(179, 165, 41);   
+        }
+        .skills{
+            display: inline-block;
+            width: 250px
+        }
+        
+        .slider{
+            /* background: white; */
+            -webkit-appearance: none;
+            width: 50%;
+            height: 8px;
+            background:linear-gradient(to right, rgb(243, 219, 8),rgb(222, 223, 176));
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <div class="image">
+            <img src="Myphoto2.jpg" alt="Profile Image" width="200" height="150">
+        </div>
+        <div class="name">
+            VEERENDRA RIMMALAPUDI
+        </div>    
+        <div class="div1"></div>
+        <div class="div2"></div>   
+        <div class="div3">
+            Veerendra Rimmalapudi,9999999999|veerendra.rimmalapudi@gmail.com
+        </div>
+    </div>
+    <br>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <i class="fa fa-user-circle fa-1x" aria-hidden="true"></i>
+            Profile
+        </div>
+        <div class="grid-item item2">
+            <i class="fa fa-briefcase" aria-hidden="true"></i>
+            Work experience
+        </div>
+        <div class="grid-item2" style="padding-top: 10px;">Innovative optimised soution seeker. Excited to be at the deployment phase of my new career as a web developer. I am ambitious, adveturous, animated and an alliteration advocate.
+        </div>
+        <div class="grid-item2 item2" style="padding-top: 10px;">
+            <b>Infosys</b> <div style="display: inline; padding-left: 65%;">2019 to 2021</div>  
+            <br>
+            <ul>
+                <li>Manual testing on PEGA Smart Disputes aplication</li>
+                <li>Automation testing using Fast Frame-Work</li>
+                <li>Doing regression, sanity and other testings on appliaction </li>
+            </ul>
+        </div>
+        <div class="grid-item" style="bottom: 50px;">
+            <i class="fa fa-flask" aria-hidden="true"></i>
+            Skills
+        </div>
+        <div class="grid-item item2"> 
+            <i class="fa fa-flag" aria-hidden="true"></i>
+            Education
+        </div>
+        <div class="grid-item2" style="bottom: 50px;">
+            <div style="padding-left: 200px;"><b>Technical Skills</b></div>
+
+            <div><span class="skills">JavaScript</span><input class="slider" type="range" min="1" max="10"></div>
+            <div><span class="skills">CSS</span><input class="slider" type="range" min="1" max="10" ></div>
+            <div><span class="skills">Html</span><input class="slider" type="range" min="1" max="10"></div>
+            <div><span class="skills">React</span><input class="slider" type="range" min="1" max="10"></div>
+            <div><span class="skills">Redux</span><input class="slider" type="range" min="1" max="10"></div>
+            <div><span class="skills">Mongo</span><input class="slider" type="range" min="1" max="10"></div>
+            <div><span class="skills">Java</span><input class="slider" type="range" min="1" max="10"></div>
+            
+            <br>
+            <div style="padding-left: 200px;"><b>Additional Skills</b></div>
+            <div><span class="skills">Project Management</span><input class="slider" type="range" min="1" max="10" ></div>
+            <div><span class="skills">Recruitment</span><input class="slider" type="range" min="1" max="10"></div>
+            <div><span class="skills">Bussiness Development</span><input class="slider" type="range" min="1" max="10"></div>
+            <div><span class="skills">Editing</span><input class="slider" type="range" min="1" max="10"></div>
+            <div><span class="skills">Fundraising</span><input class="slider" type="range" min="1" max="10"></div>
+        </div>
+        
+        <div class="grid-item2 item2" style="padding-top: 10px; height: 165%;">
+          <b>BTech - Information Technology</b><div style="display: inline; padding-left: 30%;">2015-2019</div>
+          <br>
+          <b>GVP College of Engineering</b>
+          <br><br>
+          Project-focuse intensive programwith emphasis on Mongo,Express,React and Javascript(MERN) technical stack
+          <ul>
+            <li>
+                Developed a full stack web application,"RenewU", using Recat that allows user to various aspects of mediattaion.
+            </li>
+            <li>
+                Developed a project on purpose of this project is to build an automated end to end student
+                attendance record book-keeping system.We used Java-Scripts with Apache for UT and MySQL as backend DB.The application wad hosted on AWS
+            </li>
+          </ul>
+          <br>
+          <b>Intermediate</b><div style="display: inline; padding-left: 56%;">2013-2015</div>  
+          
+        </div>
+        <div class="grid-item" >
+            <i class="fa fa-briefcase" aria-hidden="true"></i>
+            Work experience
+        </div>
+        <div class="grid-item2 item2" >
+            
+        </div>
+        <div class="grid-item2" style="padding-top: 10px;">
+            <b>Event Manager</b><div style="display: inline; padding-left: 55%;">2019-2020</div>
+          <br>
+            <ul>
+                <li>
+                    Developed a full stack web application,"RenewU", using Recat that allows user to various aspects of mediattaion.
+                </li>
+                <li>
+                    Developed a project on purpose of this project is to build an automated end to end student
+                    attendance record book-keeping system.We used Java-Scripts with Apache for UT and MySQL as backend DB.The application wad hosted on AWS
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
